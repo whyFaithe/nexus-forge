@@ -20,7 +20,11 @@ const cabinetGrotesk = Cabinet_Grotesk({
 export const metadata: Metadata = {
   title: "Nexus Forge - Tech Startup Studio",
   description: "Building the Future, One Startup at a Time",
+  icons: {
+    icon: "/nexus_logo.svg",
+  },
 }
+
 
 export default function RootLayout({
   children,
