@@ -26,7 +26,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-8">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Logo className="h-8 w-8" />
+            <Logo className="h-8 w-8 bg-transparent" />
             <span className="text-3xl font-display text-white">
               Nexus <span className="text-accent">Forge</span>
             </span>
